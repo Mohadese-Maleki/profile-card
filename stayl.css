@@ -1,15 +1,15 @@
 body {
   background-color: #575656;
   font-family: "Fredoka", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .parent {
-  box-sizing: content-box;
   width: 400px;
   height: 400px;
   background-color: #575656;
-  margin: auto;
-  margin-top: 80px;
   padding: 25px 0;
   box-shadow: 0 0 10px #000d1a;
   border-radius: 10%;
