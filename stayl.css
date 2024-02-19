@@ -54,6 +54,7 @@ body {
 
 @keyframes borderChange {
     0% { border-color: rgb(233, 68, 68); }
+    25% {border-color:rgb(145,43,99);}
     50% { border-color: rgb(62, 62, 202); }
     100% { border-color: rgb(65, 211, 65); }
 }
