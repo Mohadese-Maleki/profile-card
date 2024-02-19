@@ -4,6 +4,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 
 .parent {
@@ -23,7 +24,8 @@ body {
   background-repeat: no-repeat;
   display: block;
   margin: auto;
-  border: 4px solid rgb(255, 251, 251);
+  border: 4px solid rgb(243, 234, 234);
+  animation: borderChange 3s infinite;
   border-radius: 50%;
 }
 
@@ -31,11 +33,12 @@ body {
   margin: 25px auto;
   font-size: 25px;
   width: 200px;
-  color: #f4f7fa;
+  color: #ffffff;
 }
 .dese {
   text-align: center;
   color: #ffffff;
+  animation: colorChange 3s infinite;
 }
 
 .social {
@@ -46,4 +49,11 @@ body {
 }
 .social i {
   margin: 10px;
+}
+
+
+@keyframes borderChange {
+    0% { border-color: rgb(233, 68, 68); }
+    50% { border-color: rgb(62, 62, 202); }
+    100% { border-color: rgb(65, 211, 65); }
 }
