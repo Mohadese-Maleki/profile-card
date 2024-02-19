@@ -1,0 +1,49 @@
+body {
+  background-color: #575656;
+  font-family: "Fredoka", sans-serif;
+}
+
+.parent {
+  box-sizing: content-box;
+  width: 400px;
+  height: 400px;
+  background-color: #575656;
+  margin: auto;
+  margin-top: 80px;
+  padding: 25px 0;
+  box-shadow: 0 0 10px #000d1a;
+  border-radius: 10%;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  background: url(img/msg90301484-1420788.jpg);
+  background-position: 15;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  margin: auto;
+  border: 4px solid rgb(255, 251, 251);
+  border-radius: 50%;
+}
+
+.title {
+  margin: 25px auto;
+  font-size: 25px;
+  width: 200px;
+  color: #f4f7fa;
+}
+.dese {
+  text-align: center;
+  color: #ffffff;
+}
+
+.social {
+  height: 60px;
+  text-align: center;
+  font-size: 33px;
+  color: #b7b8b9;
+}
+.social i {
+  margin: 10px;
+}
